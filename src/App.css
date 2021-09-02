@@ -1,8 +1,100 @@
-.App {
-  background-color: #282c34;
-  color: white;
+a {
+  text-decoration: none;
+  color: rgb(135, 135, 135);
 }
-.Loader {
+.App .container {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: white;
+  border-radius: 6px;
+  max-width: 400px;
+  margin: 15px auto;
+  border: rgba(135, 135, 135, 0.5) 0.5px solid;
+  box-shadow: 3px 3px 10px rgba(135, 135, 135, 0.4);
+  color: rgb(135, 135, 135);
+  padding: 10px 20px 20px;
+}
+.App .icon {
   display: block;
   margin: 0 auto;
+  text-align: end;
+}
+.App .gitHubLink {
+  text-align: center;
+  font-size: 12px;
+}
+.btn {
+  background: white;
+  padding: 5px 15px;
+  margin: 10px 0;
+  border: 1px solid rgba(156, 156, 156, 0.8);
+  font-size: 14px;
+}
+.search {
+  padding: 0 2px;
+}
+.Search .form-control {
+  font-size: 14px;
+  padding: 5px 10px;
+  margin: 10px 0;
+  border-radius: 4px;
+  border-color: rgba(156, 156, 156, 0.8);
+}
+.Search .searchButton:focus {
+  border-color: #86b7fe;
+  outline: 0;
+  box-shadow: 0 0 0 0.25rem rgb(13 110 253/25%);
+}
+.Search .searchButton:hover {
+  border-color: #86b7fe;
+  outline: 0;
+  box-shadow: 0 0 0 0.1rem rgb(13 110 253/25%);
+  cursor: pointer;
+}
+.TimeDate {
+  font-size: 13px;
+}
+.TimeDate .date {
+  font-size: 12px;
+  padding-top: 2px;
+}
+.TimeDate .day {
+  font-size: 16px;
+  padding-top: 2px;
+}
+.MaxMinTemps {
+  font-size: 12px;
+  text-align: end;
+  padding-top: 10px;
+}
+.Forcast {
+  text-align: center;
+}
+.Forcast .cityName {
+  text-transform: uppercase;
+  padding-top: 15px;
+  font-size: 35px;
+  font-weight: 500;
+}
+.Forcast .temperature {
+  font-size: 35px;
+}
+.Forcast .unit {
+  font-size: 12px;
+  position: relative;
+  top: -16px;
+}
+.Forcast .active {
+  color: rgb(196, 132, 255);
+}
+.Forcast .btn-group {
+  display: block;
+  margin: 15px auto;
+  text-align: center;
+}
+.Forcast .btn {
+  padding: 7px 17px;
+  font-size: 12px;
+  background-color: rgba(108, 117, 125, 0.8);
+  box-shadow: 3px 3px 10px rgba(135, 135, 135, 0.4);
+  color: white;
 }

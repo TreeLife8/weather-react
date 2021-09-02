@@ -1,12 +1,12 @@
 import React from "react";
+import "./App.css";
 import axios from "axios";
-import Loader from "react-loader-spinner";
 
 export default function Search() {
   displayForcast(`sydney`);
 
   function handleResponse(response) {
-    alert(`it is ${Math.round(response.data.main.temp)}`);
+    // alert(`it is ${Math.round(response.data.main.temp)}`);
   }
 
   function displayForcast(city) {
@@ -16,12 +16,24 @@ export default function Search() {
   }
 
   return (
-    <Loader
-      type="Puff"
-      color="#00BFFF"
-      height={100}
-      width={100}
-      timeout={3000}
-    />
+    <div className="Search">
+      <form>
+        <div className="row">
+          <div className="col-7 search">
+            <input
+              className="form-control"
+              type="search"
+              placeholder="Enter a city..."
+              autoFocus
+            ></input>
+          </div>
+          <div className="col-5 search">
+            <button className="btn searchButton  btn-control" value="submit">
+              Search
+            </button>
+          </div>
+        </div>
+      </form>
+    </div>
   );
 }
