@@ -104,13 +104,16 @@ a {
   box-shadow: 3px 3px 10px rgba(135, 135, 135, 0.4);
   color: white;
 }
-.minTemp {
+.minTempForcast {
   opacity: 0.5;
   font-size: 14px;
 }
 .margin {
   padding: 0;
 }
+.forcastIcon {
+  width: 50px;
+}
 .forcastDay {
-  max-width: 20%;
+  text-align: center;
 }

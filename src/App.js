@@ -206,18 +206,20 @@ export default function App() {
           <hr />
           <div className="row">
             {/* <WeeklyForcast city={city} loaded={true} /> */}
-            <div className="col-2  ps-4">
+            <div className="col-1"></div>
+            <div className="col-2">
               <span className="maxTemp forcast">25°</span>
-              <span className="minTemp forcast">20°</span>
+              <span className="minTempForcast">20°</span>
               <img
+                className="forcastIcon"
                 src="https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png"
                 alt="current weather icon"
               />
               <div className="forcastDay">Tue</div>
             </div>
-            <div className="col-2  ps-4">
+            <div className="col-2">
               <span className="maxTemp forcast">25°</span>
-              <span className="minTemp forcast">20°</span>
+              <span className="minTempForcast">20°</span>
               <img
                 className="forcastIcon"
                 src="https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png"
@@ -225,9 +227,9 @@ export default function App() {
               />
               <div className="forcastDay">Wed</div>
             </div>
-            <div className="col-2  ps-4">
+            <div className="col-2">
               <span className="maxTemp forcast">25°</span>
-              <span className="minTemp forcast">20°</span>
+              <span className="minTempForcast">20°</span>
               <img
                 className="forcastIcon"
                 src="https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png"
@@ -235,9 +237,9 @@ export default function App() {
               />
               <div className="forcastDay">Thu</div>
             </div>
-            <div className="col-2  ps-4">
+            <div className="col-2">
               <span className="maxTemp forcast">25°</span>
-              <span className="minTemp forcast">20°</span>
+              <span className="minTempForcast">20°</span>
               <img
                 className="forcastIcon"
                 src="https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png"
@@ -245,9 +247,9 @@ export default function App() {
               />
               <div className="forcastDay">Fri</div>
             </div>
-            <div className="col-2  ps-4">
+            <div className="col-2">
               <span className="maxTemp forcast">25°</span>
-              <span className="minTemp forcast">20°</span>
+              <span className="minTempForcast">20°</span>
               <img
                 className="forcastIcon"
                 src="https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png"
@@ -258,7 +260,11 @@ export default function App() {
           </div>
         </div>
         <div className="gitHubLink">
-          <a href="https://github.com/TreeLife8/weather-react">
+          <a
+            href="https://github.com/TreeLife8/weather-react"
+            target="_blank"
+            rel="noreferrer"
+          >
             Open-source code
           </a>
           , by Regina Maher
