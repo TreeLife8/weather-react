@@ -2,6 +2,12 @@ a {
   text-decoration: none;
   color: rgb(135, 135, 135);
 }
+.App Loader {
+  text-align: center;
+  display: block;
+  margin: 100px auto;
+  font-weight: 100;
+}
 .App .container {
   font-family: Arial, Helvetica, sans-serif;
   background-color: white;
@@ -9,7 +15,7 @@ a {
   max-width: 400px;
   margin: 15px auto;
   border: rgba(135, 135, 135, 0.5) 0.5px solid;
-  box-shadow: 3px 3px 10px rgba(135, 135, 135, 0.4);
+  box-shadow: 3px 3px 10px rgba(110, 19, 19, 0.4);
   color: rgb(135, 135, 135);
   padding: 10px 20px 20px;
 }
@@ -71,7 +77,7 @@ a {
 }
 .Forcast .cityName {
   text-transform: uppercase;
-  padding-top: 15px;
+  padding-top: 25px;
   font-size: 35px;
   font-weight: 500;
 }
@@ -97,4 +103,14 @@ a {
   background-color: rgba(108, 117, 125, 0.8);
   box-shadow: 3px 3px 10px rgba(135, 135, 135, 0.4);
   color: white;
+}
+.minTemp {
+  opacity: 0.5;
+  font-size: 14px;
+}
+.margin {
+  padding: 0;
+}
+.forcastDay {
+  max-width: 20%;
 }
