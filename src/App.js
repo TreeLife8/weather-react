@@ -258,7 +258,7 @@ export default function App() {
           </div>
         </div>
         <div className="gitHubLink">
-          <a href="https://github.com/TreeLife8/Banana-Weather-App-">
+          <a href="https://github.com/TreeLife8/weather-react">
             Open-source code
           </a>
           , by Regina Maher
